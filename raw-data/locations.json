@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Earth (C-137)",
+    "type": "Planet",
+    "dimension": "Dimension C-137",
+    "id": "1"
+  },
+  {
+    "name": "Abadango",
+    "type": "Cluster",
+    "dimension": "unknown",
+    "id": "2"
+  },
+  {
+    "name": "Citadel of Ricks",
+    "type": "Space station",
+    "dimension": "unknown",
+    "id": "3"
+  },
+  {
+    "name": "Worldender's lair",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "4"
+  },
+  {
+    "name": "Anatomy Park",
+    "type": "Microverse",
+    "dimension": "Dimension C-137",
+    "id": "5"
+  },
+  {
+    "name": "Interdimensional Cable",
+    "type": "TV",
+    "dimension": "unknown",
+    "id": "6"
+  },
+  {
+    "name": "Immortality Field Resort",
+    "type": "Resort",
+    "dimension": "unknown",
+    "id": "7"
+  },
+  {
+    "name": "Post-Apocalyptic Earth",
+    "type": "Planet",
+    "dimension": "Post-Apocalyptic Dimension",
+    "id": "8"
+  },
+  {
+    "name": "Purge Planet",
+    "type": "Planet",
+    "dimension": "Replacement Dimension",
+    "id": "9"
+  },
+  {
+    "name": "Venzenulon 7",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "10"
+  },
+  {
+    "name": "Bepis 9",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "11"
+  },
+  {
+    "name": "Cronenberg Earth",
+    "type": "Planet",
+    "dimension": "Cronenberg Dimension",
+    "id": "12"
+  },
+  {
+    "name": "Nuptia 4",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "13"
+  },
+  {
+    "name": "Giant's Town",
+    "type": "Fantasy town",
+    "dimension": "Fantasy Dimension",
+    "id": "14"
+  },
+  {
+    "name": "Bird World",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "15"
+  },
+  {
+    "name": "St. Gloopy Noops Hospital",
+    "type": "Space station",
+    "dimension": "unknown",
+    "id": "16"
+  },
+  {
+    "name": "Earth (5-126)",
+    "type": "Planet",
+    "dimension": "Dimension 5-126",
+    "id": "17"
+  },
+  {
+    "name": "Mr. Goldenfold's dream",
+    "type": "Dream",
+    "dimension": "Dimension C-137",
+    "id": "18"
+  },
+  {
+    "name": "Gromflom Prime",
+    "type": "Planet",
+    "dimension": "Replacement Dimension",
+    "id": "19"
+  },
+  {
+    "name": "Earth (Replacement Dimension)",
+    "type": "Planet",
+    "dimension": "Replacement Dimension",
+    "id": "20"
+  },
+  {
+    "name": "Testicle Monster Dimension",
+    "type": "Dimension",
+    "dimension": "Testicle Monster Dimension",
+    "id": "21"
+  },
+  {
+    "name": "Signus 5 Expanse",
+    "type": "unknown",
+    "dimension": "Cromulon Dimension",
+    "id": "22"
+  },
+  {
+    "name": "Earth (C-500A)",
+    "type": "Planet",
+    "dimension": "Dimension C-500A",
+    "id": "23"
+  },
+  {
+    "name": "Rick's Battery Microverse",
+    "type": "Microverse",
+    "dimension": "Replacement Dimension",
+    "id": "24"
+  },
+  {
+    "name": "The Menagerie",
+    "type": "Menagerie",
+    "dimension": "unknown",
+    "id": "25"
+  },
+  {
+    "name": "Earth (K-83)",
+    "type": "Planet",
+    "dimension": "Dimension K-83",
+    "id": "26"
+  },
+  {
+    "name": "Hideout Planet",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "27"
+  },
+  {
+    "name": "Unity's Planet",
+    "type": "Planet",
+    "dimension": "Replacement Dimension",
+    "id": "28"
+  },
+  {
+    "name": "Dorian 5",
+    "type": "Planet",
+    "dimension": "Replacement Dimension",
+    "id": "29"
+  },
+  {
+    "name": "Earth (Unknown dimension)",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "30"
+  },
+  {
+    "name": "Earth (J19ζ7)",
+    "type": "Planet",
+    "dimension": "Dimension J19ζ7",
+    "id": "31"
+  },
+  {
+    "name": "Roy: A Life Well Lived",
+    "type": "Game",
+    "dimension": "Replacement Dimension",
+    "id": "32"
+  },
+  {
+    "name": "Eric Stoltz Mask Earth",
+    "type": "Planet",
+    "dimension": "Eric Stoltz Mask Dimension",
+    "id": "33"
+  },
+  {
+    "name": "Earth (Evil Rick's Target Dimension)",
+    "type": "Planet",
+    "dimension": "Evil Rick's Target Dimension",
+    "id": "34"
+  },
+  {
+    "name": "Planet Squanch",
+    "type": "Planet",
+    "dimension": "Replacement Dimension",
+    "id": "35"
+  },
+  {
+    "name": "Glaagablaaga",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "36"
+  },
+  {
+    "name": "Resort Planet",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "37"
+  },
+  {
+    "name": "Interdimensional Customs",
+    "type": "Customs",
+    "dimension": "unknown",
+    "id": "38"
+  },
+  {
+    "name": "Galactic Federation Prison",
+    "type": "Space station",
+    "dimension": "unknown",
+    "id": "39"
+  },
+  {
+    "name": "Gazorpazorp",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "40"
+  },
+  {
+    "name": "Hamster in Butt World",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "41"
+  },
+  {
+    "name": "Earth (Giant Telepathic Spiders Dimension)",
+    "type": "Planet",
+    "dimension": "Giant Telepathic Spiders Dimension",
+    "id": "42"
+  },
+  {
+    "name": "Alphabetrium",
+    "type": "Planet",
+    "dimension": "Replacement Dimension",
+    "id": "43"
+  },
+  {
+    "name": "Jerryboree",
+    "type": "Daycare",
+    "dimension": "unknown",
+    "id": "44"
+  },
+  {
+    "name": "Krootabulon",
+    "type": "Planet",
+    "dimension": "Replacement Dimension",
+    "id": "45"
+  },
+  {
+    "name": "Zigerion's Base",
+    "type": "Space station",
+    "dimension": "Dimension C-137",
+    "id": "46"
+  },
+  {
+    "name": "Pluto",
+    "type": "Dwarf planet (Celestial Dwarf)",
+    "dimension": "Replacement Dimension",
+    "id": "47"
+  },
+  {
+    "name": "Fantasy World",
+    "type": "Planet",
+    "dimension": "Fantasy Dimension",
+    "id": "48"
+  },
+  {
+    "name": "Zeep Xanflorp's Miniverse",
+    "type": "Miniverse",
+    "dimension": "Replacement Dimension",
+    "id": "49"
+  },
+  {
+    "name": "Kyle's Teenyverse",
+    "type": "Teenyverse",
+    "dimension": "Replacement Dimension",
+    "id": "50"
+  },
+  {
+    "name": "Larva Alien's Planet",
+    "type": "Planet",
+    "dimension": "Unknown dimension",
+    "id": "51"
+  },
+  {
+    "name": "Earth (K-22)",
+    "type": "Planet",
+    "dimension": "Dimension K-22",
+    "id": "52"
+  },
+  {
+    "name": "Mr. Meeseeks Box",
+    "type": "Box",
+    "dimension": "unknown",
+    "id": "53"
+  },
+  {
+    "name": "Vindicator's Base",
+    "type": "Spacecraft",
+    "dimension": "unknown",
+    "id": "54"
+  },
+  {
+    "name": "Pawn Shop Planet",
+    "type": "Planet",
+    "dimension": "Replacement Dimension",
+    "id": "55"
+  },
+  {
+    "name": "Mega Gargantuan Kingdom",
+    "type": "Microverse",
+    "dimension": "Replacement Dimension",
+    "id": "56"
+  },
+  {
+    "name": "Gear World",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "57"
+  },
+  {
+    "name": "Earth (D-99)",
+    "type": "Planet",
+    "dimension": "Dimension D-99",
+    "id": "58"
+  },
+  {
+    "name": "Earth (D716)",
+    "type": "Planet",
+    "dimension": "Dimension D716",
+    "id": "59"
+  },
+  {
+    "name": "Earth (D716-B)",
+    "type": "Planet",
+    "dimension": "Dimension D716-B",
+    "id": "60"
+  },
+  {
+    "name": "Earth (D716-C)",
+    "type": "Planet",
+    "dimension": "Dimension D716-C",
+    "id": "61"
+  },
+  {
+    "name": "Earth (J-22)",
+    "type": "Planet",
+    "dimension": "Dimension J-22",
+    "id": "62"
+  },
+  {
+    "name": "Froopyland",
+    "type": "Artificially generated world",
+    "dimension": "Replacement Dimension",
+    "id": "63"
+  },
+  {
+    "name": "Detoxifier",
+    "type": "Machine",
+    "dimension": "Replacement Dimension",
+    "id": "64"
+  },
+  {
+    "name": "Trunk World",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "65"
+  },
+  {
+    "name": "Plopstar",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "66"
+  },
+  {
+    "name": "Blips and Chitz",
+    "type": "Arcade",
+    "dimension": "Replacement Dimension",
+    "id": "67"
+  },
+  {
+    "name": "Girvonesk",
+    "type": "unknown",
+    "dimension": "unknown",
+    "id": "68"
+  },
+  {
+    "name": "Earth (C-35)",
+    "type": "Planet",
+    "dimension": "Dimension C-35",
+    "id": "69"
+  },
+  {
+    "name": "Snuffles' Dream",
+    "type": "Dream",
+    "dimension": "Dimension C-137",
+    "id": "70"
+  },
+  {
+    "name": "Earth (Pizza Dimension)",
+    "type": "Planet",
+    "dimension": "Pizza Dimension",
+    "id": "71"
+  },
+  {
+    "name": "Earth (Phone Dimension)",
+    "type": "Planet",
+    "dimension": "Phone Dimension",
+    "id": "72"
+  },
+  {
+    "name": "Greasy Grandma World",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "73"
+  },
+  {
+    "name": "Earth (Chair Dimension)",
+    "type": "Planet",
+    "dimension": "Chair Dimension",
+    "id": "74"
+  },
+  {
+    "name": "Árboles Mentirosos",
+    "type": "Planet",
+    "dimension": "unknown",
+    "id": "75"
+  },
+  {
+    "name": "Alien Day Spa",
+    "type": "Spa",
+    "dimension": "unknown",
+    "id": "76"
+  }
+]

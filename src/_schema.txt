@@ -1,0 +1,95 @@
+use juniper::FieldResult;
+use serde::{Deserialize, Serialize};
+use std::sync::{self, RwLock};
+
+#[derive(juniper::GraphQLObject, Serialize, Deserialize, Clone)]
+pub struct Character {
+  id: juniper::ID,
+  name: String,
+  r#type: String,
+  gender: String,
+  species: String,
+  status: String,
+}
+
+impl Character {
+  fn from_new_character(id: usize, new_character: NewCharacter) -> Character {
+    Character {
+      id: juniper::ID::new(id.to_string()),
+      gender: new_character.gender,
+      name: new_character.name,
+      r#type: new_character.r#type,
+      status: new_character.status,
+      species: new_character.species,
+    }
+  }
+}
+
+#[derive(juniper::GraphQLInputObject)]
+struct NewCharacter {
+  name: String,
+  r#type: String,
+  gender: String,
+  species: String,
+  status: String,
+}
+
+// ######### CONTEXT ###############
+struct Database<'a> {
+  characters: RwLock<&'a mut Vec<Character>>,
+}
+impl<'a> Database<'a> {
+  fn get_characters(&self) -> &Vec<Character> {
+    *self.characters.read().unwrap()
+  }
+
+  fn add_character(
+    &self,
+    new_character: NewCharacter,
+  ) -> Result<&Character, sync::PoisonError<sync::RwLockWriteGuard<'_, &'a mut Vec<Character>>>> {
+    let characters = &mut *(self.characters.write()?);
+    let id = characters.len() + 1;
+    let character = Character::from_new_character(id, new_character);
+    characters.push(character);
+    Ok(&character)
+  }
+}
+
+pub struct Ctx<'a>(Database<'a>);
+impl<'a> juniper::Context for Ctx<'a> {}
+impl<'a> Ctx<'a> {
+  pub fn new(characters: &'a mut Vec<Character>) -> Ctx<'a> {
+    Ctx(Database {
+      characters: RwLock::new(characters),
+    })
+  }
+}
+
+// ######### QUERIES ###############
+pub struct Query<'a> {
+  marker: std::marker::PhantomData<&'a ()>,
+}
+#[juniper::object(
+    Context = Ctx<'a>,
+)]
+impl<'a> Query<'a> {
+  fn characters(context: &Ctx<'a>) -> FieldResult<&Vec<Character>> {
+    Ok(context.0.get_characters())
+  }
+}
+
+// ######### MUTATIONS ###############
+pub struct Mutation<'a> {
+  marker: std::marker::PhantomData<&'a ()>,
+}
+
+#[juniper::object(
+    Context = Ctx<'a>,
+)]
+impl<'a> Mutation<'a> {
+  fn createCharacter(context: &Ctx<'a>, new_character: NewCharacter) -> FieldResult<&Character> {
+    Ok(context.0.add_character(new_character)?)
+  }
+}
+
+pub type Schema<'a> = juniper::RootNode<'static, Query<'a>, Mutation<'a>>;

@@ -1,0 +1,13 @@
+{
+  "sqltools.connections": [
+    {
+      "database": "rick_and_morty",
+      "dialect": "PostgreSQL",
+      "name": "rick_and_morty",
+      "password": "postgres",
+      "port": 5432,
+      "server": "localhost",
+      "username": "postgres"
+    }
+  ]
+}
